@@ -1,23 +1,8 @@
-from fileManager.fileManager import *
+from easy_chromedriver_windows_install import install_chromedriver
 
 
-filters = [
-    "has this;and that# not those",
-    "has this",
-    "has that",
-    "has those"
-]
+install_chromedriver()
 
-testStrings = [
-    "string with this and that with has",
-    "string with this and that with has not",
-    "string with this and that with has those",
-]
-
-#tests
-for string in testStrings:
-    print("String: " + string)
-    for filter in filters:
-        print("     (" + str(textHasStringFilter(string, filter)) + ") " + filter)
-    print("")
+print('Chromedriver installed successfully')
+print('Retry install to view the message: Chromedriver already installed with version:  xxx.xxx.xxx')
 

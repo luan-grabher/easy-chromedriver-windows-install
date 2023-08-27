@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='fileManager',
-    version='0.1.4',
-    packages=['fileManager'],
+    name='easy_chromedriver_windows_install',
+    version='0.1.0',
+    packages=['easy_chromedriver_windows_install'],
 )
