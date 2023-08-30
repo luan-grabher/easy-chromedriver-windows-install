@@ -9,7 +9,7 @@ After configure use this pip command based on this example:
 ### Example
 
 ```python
-from easy_chromedriver_windows_install import install
+from easy_chromedriver_windows_install import install_chromedriver
 
 install_chromedriver() # install chromedriver
 ```
