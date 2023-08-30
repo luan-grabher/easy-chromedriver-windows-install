@@ -5,7 +5,7 @@ with open("README.md", "r") as arq:
 
 setup(
     name='easy_chromedriver_windows_install',
-    version='0.0.1',
+    version='0.0.2',
     license='MIT License',
     author='Luan Grabher',
     long_description=readme,

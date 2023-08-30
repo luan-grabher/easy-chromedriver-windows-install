@@ -2,9 +2,9 @@
 
 This is a simple python package to install chromedriver on windows. Easy to use with selenium.
 
-After configure use this pip command based on this example:
+Use this pip command to install:
 
-```pip install git+https://github.com/luan-grabher/easy-chromedriver-windows-install```
+```pip install easy-chromedriver-windows-install```
 
 ### Example
 
